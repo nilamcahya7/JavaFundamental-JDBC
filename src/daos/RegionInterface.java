@@ -9,6 +9,6 @@ public interface RegionInterface {
   public Integer delete(int id);
   public boolean insert(Region region);
   public List<Region> get();
-  public Region get(int regionId);
+  public Region get(int id);
   // public Region getById(int regionId);
 }
